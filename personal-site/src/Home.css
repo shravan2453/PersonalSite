@@ -1,0 +1,42 @@
+body{
+  background-color: black;
+}
+
+.Home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+  justify-content: center;
+  height: 100vh;
+}
+
+.home-header {
+  font-size: 30px;
+  color: white;
+  margin-bottom: 0px;
+  font-family:'BiotifBold';
+  text-align: center;
+}
+
+.content {
+  font-size: 16px;
+  color: white;
+  margin-top: 10px; 
+  font-family:'BiotifNormal';
+}
+
+.resumeButton {
+  font-size: 18px;
+  padding: 10px 15px;
+  font-family: 'BiotifBold';
+  margin-top: 15px;
+  border-radius: 2%;
+  cursor: pointer;
+  border: none;
+}
+
+.resumeButton:hover{
+  color: white;
+  background-color: rgb(51, 50, 50);
+}

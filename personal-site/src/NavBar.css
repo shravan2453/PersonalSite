@@ -1,0 +1,77 @@
+.navBarContainer {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    width: 100%;
+    background-color: black;
+}
+
+.navImageDiv {
+    flex: 0 0 auto;
+    margin-left: 35px;
+    margin-right: 0px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.navImage {
+    width: 50px;
+    height: 50px;
+}
+
+.navContent {
+    color: rgb(187, 183, 183);
+    margin: 0 10px;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5%;
+    background-color: black;
+    font-family:'BiotifNormal';
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: -10px;
+}
+
+.navContent.active {
+    background-color: #222;
+    color: #fff;
+    border: 2px solid white;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 6px;    
+    text-decoration-thickness: 3px; 
+}
+
+.navContent:hover {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 6px;    
+    text-decoration-thickness: 3px; 
+}
+
+.navSearch {
+    margin-left: 0px;
+}
+
+.navSearch input[type="text"] {
+    padding: 8px 16px;
+    width: 65px;
+    margin-right: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-family:'BiotifNormal';
+    font-style: normal;
+    background-color: #222;
+    color: white;
+    font-size: 14px;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.navSearch input[type="text"]:focus {
+    border: 1.5px solid white;
+    background-color: #333;
+}

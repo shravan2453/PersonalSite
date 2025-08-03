@@ -1,0 +1,26 @@
+.footer{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    position: fixed;
+    background-color: black;
+}
+
+.footerContent{
+    font-family: 'BiotifNormal';
+    font-size: 13px;
+    color: rgb(143, 141, 141);
+    background-color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.footerContent:hover{
+    color: white;
+}

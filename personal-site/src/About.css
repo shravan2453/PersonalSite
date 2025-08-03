@@ -1,0 +1,38 @@
+.aboutSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+}
+
+.textContent {
+    left: 0;
+    padding: 0;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+.imageContent{
+    height: 500px;
+    width: 425px;
+    border-radius: 20%;
+}
+
+.aboutHeader {
+    font-size: 2rem;
+    margin-bottom: 16px;
+    font-family: 'BiotifBold';
+    text-align: center;
+}
+
+.aboutContent{
+    font-family: 'BiotifNormal';
+    margin: 0 0;
+    max-width: 600px;
+    line-height: 1.8;
+}
