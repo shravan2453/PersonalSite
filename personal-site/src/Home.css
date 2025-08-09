@@ -3,35 +3,44 @@ body{
 }
 
 .Home {
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 0px;
   justify-content: center;
-  height: 100vh;
+}
+
+.main{
+  gap: 0px;
+  align-items: left;
+  margin-left: 15%;
 }
 
 .home-header {
-  font-size: 30px;
+  font-size: 60px;
   color: white;
   margin-bottom: 0px;
   font-family:'BiotifBold';
-  text-align: center;
 }
 
 .content {
-  font-size: 16px;
-  color: white;
-  margin-top: 10px; 
+  font-size: 20px;
+  color: rgb(197, 195, 195);
+  margin-top: 0px; 
   font-family:'BiotifNormal';
+  text-align: left;
+}
+
+.content .special{
+  color: rgb(61, 92, 249);
+  font-size: 25px;
 }
 
 .resumeButton {
-  font-size: 18px;
-  padding: 10px 15px;
+  font-size: 24px;
+  padding: 17px 15px;
   font-family: 'BiotifBold';
   margin-top: 15px;
-  border-radius: 2%;
+  border-radius: 5px;
   cursor: pointer;
   border: none;
 }
@@ -40,3 +49,4 @@ body{
   color: white;
   background-color: rgb(51, 50, 50);
 }
+

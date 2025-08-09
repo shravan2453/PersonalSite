@@ -1,0 +1,71 @@
+.Projects{
+    height: 140vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.header{
+    font-family: "BiotifBold";
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-bottom: 65px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    row-gap: 70px;
+    padding: 0 150px;
+}
+
+.grid-item {
+    list-style: none;
+    padding: 28px;                
+    border-radius: 20px;
+    background: #111;    
+    text-align: center;       
+    transition: backgound-color .3s ease, box-shadow .3s ease, transform .3s ease;
+    cursor: pointer;
+}
+
+.grid-item:hover {
+    background: #2c2c2c;         
+    transform: translateY(-8px); 
+    box-shadow: 0 16px 40px rgba(62, 64, 186, 0.45);
+}
+
+.grid-logo{
+    height: 40px;
+    width: 40px;
+}
+
+.grid-github{
+    height: 40px;
+    width: 40px;
+}
+
+.grid-description{
+    font-family: "BiotifNormal";
+    font-size: 16px;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    margin-bottom: 5%;
+}
+
+.grid-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.grid-title{
+    color: white;
+    font-family: 'BiotifBold';
+    padding: 0 20px;
+}

@@ -15,3 +15,20 @@
   font-display: swap;
 }
 
+
+@font-face {
+  font-family: "BiotifLight";
+  src: url("./fonts/biotif/Fontspring-DEMO-biotif-light.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BiotifItalic";
+  src: url("./fonts/biotif/Fontspring-DEMO-biotif-lightitalic.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+

@@ -4,7 +4,10 @@ import NavBar from './NavBar';
 import Home from './Home';
 import About from './About';
 import Footer from './Footer';
+import Projects from './Projects';
 import './index.css';
+import Experiences from './Experiences';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 function MainLayout() {
@@ -15,6 +18,8 @@ function MainLayout() {
       <NavBar activeSection={activeSection} setActiveSection={setActiveSection} />
       <Home />
       <About />
+      <Projects />
+      <Experiences />
       <Footer />
     </div>
   );

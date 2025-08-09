@@ -1,0 +1,64 @@
+.Experience{
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.header{
+    font-family: "BiotifBold";
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-bottom: 65px;
+}
+
+.experience-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 100px;
+    row-gap: 70px;
+    padding: 0 400px;
+}
+
+.exp-grid-item {
+    list-style: none;
+    padding: 28px;                
+    border-radius: 20px;
+    border: none;
+    background: #000000;    
+    text-align: center;       
+    transition: backgound-color .3s ease, box-shadow .3s ease, transform .3s ease;
+    cursor: pointer;
+}
+
+.exp-grid-item:hover {
+    background: #2c2c2c;         
+    transform: translateY(-8px); 
+    box-shadow: 0 16px 40px rgba(62, 64, 186, 0.45);
+}
+
+.exp-grid-logo{
+    height: 40px;
+    width: 40px;
+}
+
+.exp-grid-role{
+    font-size: 16px;
+    font-family: 'BiotifLight';
+    color: white;
+}
+
+.exp-grid-time{
+    font-size: 14px;
+    margin-top: 30px;
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    color: white;
+}
+
+.exp-grid-title{
+    color: white;
+    font-family: 'BiotifNormal';
+    padding: 0 20px;
+}

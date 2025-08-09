@@ -5,13 +5,12 @@ import './fonts.css';
 function NavBar({ activeSection, setActiveSection }) {
     return (
         <div className="navBarContainer">
-             <div
+            <div
                 className="navImageDiv"
                 onClick={() => {
                     document.getElementById('home').scrollIntoView({ behavior: 'smooth' });
                     setActiveSection('');
                 }}
-                style={{ cursor: 'pointer' }}
             >
                 <img src={navLogo} alt="NavigationBarImage" className="navImage" />
             </div>
@@ -23,13 +22,29 @@ function NavBar({ activeSection, setActiveSection }) {
                         setActiveSection('about');
                     }}
                     >
-                    ABOUT
+                    About
                 </button>
-                <button className="navContent">PROJECTS</button>
-                <button className="navContent">WORK EXPERIENCE</button>
-                <button className="navContent">TECH STACK</button>
-                <button className="navContent">CONTACT</button>
-                <button className="navContent">CHAT WITH ME 💡</button>
+                <button
+                    className={`navContent${activeSection === 'project' ? ' active' : ''}`}
+                    onClick={() => {
+                        document.getElementById('project').scrollIntoView({ behavior: 'smooth' });
+                        setActiveSection('project');
+                    }}
+                    >
+                    Projects
+                </button>
+                <button 
+                    className={`navContent${activeSection === 'work' ? ' active' : ''}`}
+                    onClick={() => {
+                        document.getElementById('work').scrollIntoView({behavior:'smooth'});
+                        setActiveSection('work');
+                    }}
+                    >
+                    Experience
+                </button>
+                <button className="navContent">Tech Stack</button>
+                <button className="navContent">Contact</button>
+                <button className="navContent">Chat 💡</button>
             </div>
             <div className="navSearch">
                 <input type="text" placeholder="Search..." />

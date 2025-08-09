@@ -6,15 +6,15 @@
     display: flex;
     justify-content: center;
     gap: 150px;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 14px;
+    padding-top: 14px;
     position: fixed;
     background-color: black;
 }
 
 .footerContent{
     font-family: 'BiotifNormal';
-    font-size: 13px;
+    font-size: 16px;
     color: rgb(143, 141, 141);
     background-color: black;
     border: none;
