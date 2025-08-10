@@ -60,10 +60,6 @@ function NavBar({ activeSection, setActiveSection }) {
                     >
                     Contact
                 </button>
-                <button className="navContent">Chat 💡</button>
-            </div>
-            <div className="navSearch">
-                <input type="text" placeholder="Search..." />
             </div>
         </div>
     );
