@@ -51,7 +51,15 @@ function NavBar({ activeSection, setActiveSection }) {
                     >
                     Tech Stack
                 </button>
-                <button className="navContent">Contact</button>
+                <button 
+                    className={`navContent${activeSection === 'contact' ? ' active' : ''}`}
+                    onClick={() => {
+                        document.getElementById('contact').scrollIntoView({behavior:'smooth'});
+                        setActiveSection('contact');
+                    }}
+                    >
+                    Contact
+                </button>
                 <button className="navContent">Chat 💡</button>
             </div>
             <div className="navSearch">
