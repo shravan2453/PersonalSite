@@ -75,13 +75,14 @@
     margin-bottom: 10px;
 }
 
+.thanks-message{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    font-family: "BiotifNormal";
+    padding: 0 300px;
 
-.thankYouPanel{
-  margin-top: 18px;
-  padding: 16px 18px;
-  border-radius: 14px;
-  border: 1px solid #2a2a2a;
-  background: #142e1a;         /* dark green tint */
-  color: #e8fff0;
+    opacity: 1;                /* start invisible */
+    transform: translateY(20px); /* slight slide down */
+    transition: opacity 0.6s ease, transform 0.6s ease;
 }
-.thankYouPanel h3{ margin: 0 0 6px; }

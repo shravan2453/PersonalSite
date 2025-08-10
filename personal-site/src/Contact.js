@@ -7,12 +7,19 @@ function Contact(){
 
   const onSubmit = async (e) => {
     e.preventDefault();
-    handleSubmit(e);      // sends to Formspree
+    handleSubmit(e); 
+
+    const contactSection = document.querySelector('.Contact');
+    contactSection.style.height = '50vh';
+    
+    const inputArea = document.getElementById('contact');
+    inputArea.innerHTML = `
+            <h1 class="thanks-message"> Thank you for reaching out. I will get back to you as soon as possible. </h1>`;   // sends to Formspree
   };
 
 
   return (
-    <div className="Contact">
+    <div className="Contact" id="contact">
         <h1 className="contactTitle">Contact Me</h1>
         <div className="contactInfo">
             <form onSubmit={onSubmit} noValidate>
