@@ -2,7 +2,7 @@
     height: 100vh;
     align-items: center;
     justify-content: center;
-    margin-top: 0px;
+    margin-top: 8%;
 }
 
 .header{
@@ -10,7 +10,7 @@
     font-size: 40px;
     text-align: center;
     color: white;
-    margin-bottom: 65px;
+    margin-bottom: 5%;
 }
 
 .experience-grid{

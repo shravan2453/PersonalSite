@@ -2,7 +2,7 @@
     height: 140vh;
     align-items: center;
     justify-content: center;
-    margin-top: 0px;
+    margin-top: 2%;
 }
 
 .header{
@@ -10,7 +10,7 @@
     font-size: 40px;
     text-align: center;
     color: white;
-    margin-bottom: 65px;
+    margin-bottom: 5%;
 }
 
 .grid{
@@ -38,22 +38,25 @@
 }
 
 .grid-logo{
-    height: 40px;
-    width: 40px;
+    height: 60px;
+    width: 60px;
 }
 
-.grid-github{
-    height: 40px;
-    width: 40px;
+.githublink{
+    text-decoration: none;
 }
 
 .grid-description{
-    font-family: "BiotifNormal";
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
     font-size: 16px;
+    line-height: 1.5;
     color: white;
     text-align: left;
     padding-left: 20px;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
+    margin-top: 8%;
+    height: 20vh;
 }
 
 .grid-images{
@@ -68,4 +71,19 @@
     color: white;
     font-family: 'BiotifBold';
     padding: 0 20px;
+    margin-top: 40px;
+}
+
+.project-skills-used{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-top: -3%;
+}
+
+.project-skills-used img{
+    width: 35px;
+    height: 35px;
 }

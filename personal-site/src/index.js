@@ -8,6 +8,7 @@ import Projects from './Projects';
 import './index.css';
 import Experiences from './Experiences';
 import TechStack from './TechStack';
+import Contact from './Contact';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -22,6 +23,7 @@ function MainLayout() {
       <Projects />
       <Experiences />
       <TechStack />
+      <Contact />
       <Footer />
     </div>
   );
