@@ -68,6 +68,8 @@
     text-align: center;
     align-items: center;
     justify-content: center;
+    font-family: 'BiotifBold';
+    cursor: pointer;
 }
 
 .inputSection{

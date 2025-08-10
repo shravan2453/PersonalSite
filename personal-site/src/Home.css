@@ -1,5 +1,16 @@
 body{
   background-color: black;
+  background-image: url('./images/background.jpg');
+  background-size: cover;       /* scale to cover screen */
+  background-position: center;  /* center the image */
+  background-repeat: no-repeat; /* no tiling */
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  inset: 0; /* top, right, bottom, left = 0 */
+  background: rgba(0, 0, 0, 0); /* last value = opacity */
 }
 
 .Home {
