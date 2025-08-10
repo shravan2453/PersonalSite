@@ -39,7 +39,7 @@
 .contactInfo input{
     color: white;
     background-color: rgb(32, 32, 32);
-    font-family: 'BiotifLight';
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 20px;
     width: 85vw;
     font-size: 18px;
@@ -51,7 +51,7 @@
 .contactInfo textarea{
     color: white;
     background-color: rgb(32, 32, 32);
-    font-family: 'BiotifLight';
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 20px;
     width: 85vw;
     border-radius: 10px;
@@ -81,8 +81,4 @@
     text-align: center;
     font-family: "BiotifNormal";
     padding: 0 300px;
-
-    opacity: 1;                /* start invisible */
-    transform: translateY(20px); /* slight slide down */
-    transition: opacity 0.6s ease, transform 0.6s ease;
 }
