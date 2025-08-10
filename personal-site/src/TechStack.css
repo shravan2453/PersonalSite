@@ -1,0 +1,94 @@
+.TechStack{
+    height: 120vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+
+.techtitle{
+    font-family: 'BiotifBold';
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.techStackGrid{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-evenly;
+    row-gap: 70px;
+    padding: 0 0;
+    margin-top: 60px;
+    width: 100vw;
+}
+
+.techStackGridSection{
+    margin-top: -30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.techStackGridTitle{
+    color: white;
+    font-family: 'BiotifNormal';         
+    border-radius: 20px;
+    margin: 0px;
+    width: 150px;
+    padding: 30px;
+    border: none;   
+    text-align: left;   
+    transition: backgound-color .3s ease, box-shadow .3s ease, transform .3s ease;
+    cursor: pointer;
+}
+
+.techStackSkills{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+    margin-left: 30px;
+    padding-bottom: 30px;
+    margin-top: 0;
+    cursor: pointer;
+}
+
+
+.skill{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 50px;
+    height: 80px;
+    padding-right: 45px;
+    padding-left: 45px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.skill:hover {
+    background: #585858;          
+    transform: translateY(-8px); 
+    border-radius: 10px;
+    box-shadow: 0 16px 40px rgba(62, 64, 186, 0.45);
+}
+
+.skill img{
+    height: 40px;
+    width: 40px;
+}
+
+.skill h1{
+    font-family: 'BiotifLight';
+    color: white;
+    font-size: 16px;
+    padding: 0;   
+}
+
