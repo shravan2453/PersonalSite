@@ -39,6 +39,7 @@ function Projects(){
                         <p className="grid-description">A mobile app helping students generate customizable project ideas tailored to the user. Currently implementing memory retention and reasoning-based dialogue, aiming to expand into deployment of an end-to-end process entailing project ideation tools, AI-driven resources, and timeline generation.</p>
                         <div className="project-skills-used">
                             <img src={python} alt="fillerimage" className="grid-logo"></img>
+                            <img src={js} alt="fillerimage" className="grid-logo"></img>
                             <img src={reactnative} alt="fillerimage" className="grid-logo"></img>
                             <img src={tailwindcss} alt="fillerimage" className="grid-logo"></img>
                             <img src={postgres} alt="fillerimage" className="grid-logo"></img>
