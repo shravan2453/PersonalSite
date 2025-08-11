@@ -6,13 +6,6 @@ body{
   background-repeat: no-repeat; /* no tiling */
 }
 
-body::before {
-  content: "";
-  position: absolute;
-  inset: 0; /* top, right, bottom, left = 0 */
-  background: rgba(0, 0, 0, 0); /* last value = opacity */
-}
-
 .Home {
   height: 100vh;
   display: flex;
@@ -58,6 +51,7 @@ body::before {
 
 .resumeButton:hover{
   color: white;
+  cursor: pointer;
   background-color: rgb(51, 50, 50);
 }
 

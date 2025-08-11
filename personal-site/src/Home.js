@@ -12,7 +12,7 @@ function Home() {
           <p>Aspiring Data Scientist</p>
         </div>
         <div>
-          <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+           <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
             <button className="resumeButton">View My Resume →</button>
           </a>
         </div>
